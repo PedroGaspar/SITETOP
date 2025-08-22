@@ -1,0 +1,83 @@
+h1 {
+    color: black;
+  }
+  
+  .texto {
+    color: green;
+  }
+  
+  .destaque {
+    font-weight: bold;
+  }
+  
+  #paragrafoid {
+    font-style: italic;
+  }
+  
+  .primeira h1 {
+    background-color: lightblue;
+  }
+  
+  .primeira > h1 {
+    border: 1px solid black;
+  }
+  
+  .primeira h1 + h1 {
+    color: purple;
+  }
+  
+  .segunda ul li:first-child {
+    color: red;
+  }
+  
+  .segunda ul li:last-child {
+    color: blue;
+  }
+  
+  .segunda ul li:nth-child(2) {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .segunda section p:nth-of-type(2) {
+    background-color: black;
+    color: red;
+  }
+  
+  .classeum {
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .classedois {
+    margin-block: 30px;
+    padding-inline: 15px;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    margin: 10px 20px 30px 40px;
+  }
+  
+  section {
+    padding: 10px 15px;
+  }
+  
+  #paragrafoid {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+  }
+  img{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    size: 100px;
+    
+    
+         
+  }
+  
